@@ -10133,3 +10133,27 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+
+.technologies ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.technologies li{
+  display: flex;
+  align-items: center;
+  flex:1;
+}
+
+.technologies li img{
+  height: 30px;
+  margin-right: 10px;
+  font-weight: lighter;
+  
+}
